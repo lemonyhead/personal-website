@@ -177,7 +177,7 @@ const Portfolio: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500">
+    <div className="min-h-screen bg-gradient-to-br from-slate-600 via-blue-700 to-indigo-800">
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Header */}
         <header className="bg-white/20 backdrop-blur-md rounded-3xl p-8 mb-8 shadow-2xl text-center relative overflow-hidden border border-white/30">
@@ -189,11 +189,11 @@ const Portfolio: React.FC = () => {
               <h1 className="text-6xl font-bold text-white mb-4 drop-shadow-2xl">
                 Aron Cheng
               </h1>
-              <div className="w-32 h-1.5 bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400 mx-auto rounded-full mb-6 shadow-lg"></div>
+              <div className="w-32 h-1.5 bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400 mx-auto rounded-full mb-6 shadow-lg"></div>
             </div>
 
             <div className="flex justify-center gap-3 flex-wrap mb-6">
-              <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-8 py-3 rounded-full font-semibold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl border border-white/20 backdrop-blur-sm">
+              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-3 rounded-full font-semibold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl border border-white/20 backdrop-blur-sm">
                 B.S. in Industrial & Systems Engineering - Concentration in Analytics & Data Science
               </span>
             </div>
@@ -208,9 +208,6 @@ const Portfolio: React.FC = () => {
               <a href="https://github.com/lemonyhead" target="_blank" rel="noopener noreferrer" className="bg-white/10 border-2 border-white/40 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:bg-white/90 hover:text-purple-600 hover:shadow-xl hover:scale-110 backdrop-blur-sm">
                 GitHub
               </a>
-              <a href="tel:+19045725904" className="bg-white/10 border-2 border-white/40 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 hover:bg-white/90 hover:text-purple-600 hover:shadow-xl hover:scale-110 backdrop-blur-sm">
-                Call
-              </a>
             </div>
 
             {/* Location Preferences */}
@@ -219,16 +216,16 @@ const Portfolio: React.FC = () => {
                 <span className="font-semibold text-white">Target Cities:</span>
               </p>
               <div className="flex flex-wrap justify-center gap-3">
-                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
+                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
                   New York
                 </span>
-                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
+                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
                   Chicago
                 </span>
-                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
+                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
                   Boston
                 </span>
-                <span className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
+                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
                   Philadelphia
                 </span>
               </div>
@@ -240,13 +237,13 @@ const Portfolio: React.FC = () => {
                 Professional Interests
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <span className="bg-gradient-to-r from-blue-400 to-cyan-400 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
+                <span className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
                   Data Science
                 </span>
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
+                <span className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
                   Product Management
                 </span>
-                <span className="bg-gradient-to-r from-orange-400 to-red-400 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
+                <span className="bg-gradient-to-r from-slate-600 to-slate-700 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform hover:scale-110 transition-all duration-300 hover:shadow-2xl cursor-pointer border border-white/20 backdrop-blur-sm">
                   Tech Strategy
                 </span>
               </div>
@@ -262,19 +259,19 @@ const Portfolio: React.FC = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white p-6 rounded-2xl shadow-xl">
+            <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">Presidential Undergraduate Research Award (PURA)</h3>
               <p>Competitive Georgia Tech research grant and stipend for undergraduate research with faculty mentorship</p>
             </div>
-            <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white p-6 rounded-2xl shadow-xl">
+            <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">Evelyn Pennington Outstanding Service Award</h3>
               <p>Selected as the top student contributor to the Industrial Engineering community (2024-2025)</p>
             </div>
-            <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-2xl shadow-xl">
+            <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">IISE Rising Star Award</h3>
               <p>Given to one 2nd/3rd-year student for leadership and impact in advancing Industrial Engineering at Georgia Tech</p>
             </div>
-            <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6 rounded-2xl shadow-xl">
+            <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">Celebrating Student Leaders Honoree</h3>
               <p>Selected as one of 20–30 student leaders recognized campus-wide with featured banners across Georgia Tech</p>
             </div>
