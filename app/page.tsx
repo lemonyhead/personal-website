@@ -129,9 +129,9 @@ const Portfolio: React.FC = () => {
       role: 'Full-Stack Student Data Developer',
       period: 'January 2025 - Present',
       achievements: [
-          'Built a data cleaning pipeline to convert raw survey exports into structured, analysis-ready formats for backend processing',
-          'Developed a multi-role login system with dynamic user routing and role-based dashboard access using Flask',
-          'Designed and implemented frontend layouts that adapt based on user type, improving usability and visual appeal across roles'
+          'Built a data cleaning pipeline with Pandas to convert raw survey exports into structured, analysis-ready formats for backend processing',
+          'Developed a backend multi-role login system with dynamic user routing and role-based dashboard access using Flask',
+          'Designed and implemented frontend layouts to showcase Georgia Tech\'s sustainability course offerings that adapt based on user type, improving usability and visual appeal across roles with HTML/CSS and Dash'
       ]
     },
     {
@@ -210,27 +210,6 @@ const Portfolio: React.FC = () => {
               </a>
             </div>
 
-            {/* Location Preferences */}
-            <div className="bg-white/5 rounded-3xl p-6 backdrop-blur-sm border border-white/20 mb-6 shadow-xl">
-              <p className="text-lg text-white/95 mb-2">
-                <span className="font-semibold text-white">Target Cities:</span>
-              </p>
-              <div className="flex flex-wrap justify-center gap-3">
-                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
-                  New York
-                </span>
-                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
-                  Chicago
-                </span>
-                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
-                  Boston
-                </span>
-                <span className="bg-gradient-to-r from-slate-500 to-gray-600 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform hover:scale-110 transition-all duration-300 hover:shadow-xl cursor-pointer">
-                  Philadelphia
-                </span>
-              </div>
-            </div>
-
             {/* Professional Interests */}
             <div className="space-y-4">
               <p className="text-lg text-white/95 font-semibold">
@@ -265,15 +244,15 @@ const Portfolio: React.FC = () => {
             </div>
             <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">Evelyn Pennington Outstanding Service Award</h3>
-              <p>Selected as the top student contributor to the Industrial Engineering community (2024-2025)</p>
+              <p>Selected by Georgia Tech’s College of Engineering as the top student contributor to the Industrial Engineering community (2024–2025)</p>
             </div>
             <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">IISE Rising Star Award</h3>
-              <p>Given to one 2nd/3rd-year student for leadership and impact in advancing Industrial Engineering at Georgia Tech</p>
+              <p>Given by the Institute of Industrial and Systems Engineers to one 2nd/3rd-year student for leadership and impact in advancing Industrial Engineering at Georgia Tech</p>
             </div>
             <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-6 rounded-2xl shadow-xl">
               <h3 className="text-xl font-bold mb-3">Celebrating Student Leaders Honoree</h3>
-              <p>Selected as one of 20–30 student leaders recognized campus-wide with featured banners across Georgia Tech</p>
+              <p>Selected by Georgia Tech's Center for Student Engagement as one of 20–30 student leaders recognized campus-wide with featured banners</p>
             </div>
           </div>
         </section>
@@ -343,19 +322,19 @@ const Portfolio: React.FC = () => {
             <>
               {githubStats && (
                 <div className="grid md:grid-cols-4 gap-4 mb-8">
-                  <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white p-6 rounded-2xl text-center shadow-xl">
+                  <div className="bg-gradient-to-br from-slate-700 to-blue-700 text-white p-6 rounded-2xl text-center shadow-xl">
                     <div className="text-3xl font-bold mb-2">{githubStats.totalRepos}</div>
                     <div className="text-sm opacity-90">Public Repositories</div>
                   </div>
-                  <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white p-6 rounded-2xl text-center shadow-xl">
+                  <div className="bg-gradient-to-br from-slate-700 to-blue-700 text-white p-6 rounded-2xl text-center shadow-xl">
                     <div className="text-3xl font-bold mb-2">{githubStats.totalStars}</div>
                     <div className="text-sm opacity-90">Total Stars</div>
                   </div>
-                  <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white p-6 rounded-2xl text-center shadow-xl">
+                  <div className="bg-gradient-to-br from-slate-700 to-blue-700 text-white p-6 rounded-2xl text-center shadow-xl">
                     <div className="text-3xl font-bold mb-2">{githubStats.totalForks}</div>
                     <div className="text-sm opacity-90">Total Forks</div>
                   </div>
-                  <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white p-6 rounded-2xl text-center shadow-xl">
+                  <div className="bg-gradient-to-br from-slate-700 to-blue-700 text-white p-6 rounded-2xl text-center shadow-xl">
                     <div className="text-3xl font-bold mb-2">{githubStats.topLanguage}</div>
                     <div className="text-sm opacity-90">Top Language</div>
                   </div>
